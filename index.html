@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    html,body{
+        margin: 0;
+    }
+    #draw{
+        border: 5px;
+        border-style: dotted;
+        border-color: black;
+    }
+    .adjust{
+        position: absolute;
+        left:1100px;
+        top:10px;
+    }
+    </style>
+    <title>Fun with Canvas</title>
+</head>
+<body>
+
+    <canvas height="500" width="500" id="draw"></canvas>
+      <div class="adjust">
+                <span>Adjust The size</span>
+                <input class ="pos"type="range" value="50" min="0" max="100">
+        </div>
+    
+</body>
+<script src="draw.js">
+
+</script>
+</html>
